@@ -418,6 +418,8 @@ section .description .buttons{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
+    gap: 25px;
 }
 section .description .buttons div:first-of-type span{
     font-weight: bold;
